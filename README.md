@@ -190,7 +190,7 @@ One can add pictures to the window. This is done by:
 
 <pre>sc.bgpic("test.gif")</pre>
 
-![image](https://github.com/user-attachments/assets/519d40b7-c4c0-4d6f-ba0e-954ab4275728)
+![image](https://github.com/user-attachments/assets/1f6763fb-1079-4ef4-97a4-d1ae8d42eb39)
 
 # Colors
 
