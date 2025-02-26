@@ -1,5 +1,10 @@
 # Turtle Graphics Documentation
 
+> [!NOTE]
+> Over time, this will be my personal Turtle Graphics
+> documentation with how to instructions and tips and
+> tricks. This is done alongside my programming activities.
+
 ## Get Started
 
 ```
