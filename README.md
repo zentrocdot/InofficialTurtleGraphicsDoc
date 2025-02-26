@@ -80,10 +80,19 @@ tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=bg_color, fill=bg_color)
 
 By adding a rectangle one can change the background. The reason is explained later.
 
-## Add Background Correction to the Window
+## Putting the Things Together
+
+![image](https://github.com/user-attachments/assets/e2c6b664-2a42-40cd-bd7e-c98d6a0bbbbc)
+
+In this window we see something that we should not see. 
+The background is not completely blue as it should be We
+see something like a border in red which is 1 point thick.
+This thin border in particular causes difficulties later on.
+
+## Add a Background Correction to the Window
 
 ```
-pad = 0
+pad = 6
 x0, y0 = -int(screen_x/2)+pad, -int(screen_y/2)+pad
 x1, y1 = int(screen_x/2)-pad, int(screen_y/2)-pad
 cs = ts.getscreen()
@@ -95,12 +104,12 @@ drawing area. The reason is explained later.
 
 ## Putting the Things Together
 
-![image](https://github.com/user-attachments/assets/e2c6b664-2a42-40cd-bd7e-c98d6a0bbbbc)
+![image](https://github.com/user-attachments/assets/fbf745ff-9471-43b5-ba61-574e8eb805f5)
 
-In this window we see something that we should not see. 
-The background is not completely blue as it should be We
-see something like a border in red which is 1 point thick.
-This thin border in particular causes difficulties later on.
+If one inspects the behaviour of the frame one sees that 
+two sides show 2 pixel width and the other two sides 6 pixel
+width which should normally not happened. 
+
 
 ## Interactive Turtle Graphics
 
