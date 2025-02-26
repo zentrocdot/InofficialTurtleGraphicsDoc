@@ -194,7 +194,9 @@ One can add pictures to the window. This is done by:
 
 # Colors
 
-
+Colors can be set using RGB color tuples like (255, 0, 0) 
+which is red. Names can be used like 'blue' ore  one can
+use a HEX representation like '#00FF00' which is lime.
 
 # References
 
