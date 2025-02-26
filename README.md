@@ -5,6 +5,10 @@
 > documentation with how to instructions and tips and
 > tricks. This is done alongside my programming activities.
 
+## 🐢 Turtle Graphics
+
+This documentation is related to the Python standard turtle library.
+
 ## 🚀 Get Started
 
 Import the standard Python module turtle to get started.
@@ -162,7 +166,5 @@ degrees() or radians() functions to each other.
 [2] https://compform.net/turtles/
 
 [3] https://el.media.mit.edu/logo-foundation/what_is_logo/index.html
-
-[4] https://www.nickmccullum.com/python-turtle/
 
  
