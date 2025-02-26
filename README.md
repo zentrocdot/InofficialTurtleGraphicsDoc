@@ -134,36 +134,37 @@ window is open.</p>
 
 ## Some Commands
 
-| METHOD             | PARAMETER  | DESCRIPTION |
-| :----------------: | :--------: | :---------: |
+| METHOD              | PARAMETER   | DESCRIPTION |
+| :-----------------: | :---------: | :---------: |
 | Turtle()	          | None	      | Creates and returns a new turtle object                                        |
-| home()             | None       | Move turtle to the origin (0,0)                                                |
-| forward(distance)  | amount     |	Moves the turtle forward by the specified amount                               |
-| fd(distance)	      | amount     |	Moves the turtle forward by the specified amount                               |
-| backward(distance) | amount	    | Moves the turtle backward by the specified amount                              |
+| home()              | None        | Move turtle to the origin (0,0)                                                |
+| forward(distance)   | amount      |	Moves the turtle forward by the specified amount                               |
+| fd(distance)	      | amount      |	Moves the turtle forward by the specified amount                               |
+| backward(distance)  | amount	    | Moves the turtle backward by the specified amount                              |
 | back(distance)	    | amount	    | Moves the turtle backward by the specified amount                              |
 | bk(distance)	      | amount	    | Moves the turtle backward by the specified amount                              |
-| right(angle)	      | angle  	   | Turns the turtle clockwise                                                     |
-| rt(angle)	         | angle  	   | Turns the turtle clockwise                                                     |
-| left(angle)        | angle	     | Turns the turtle counter clockwise                                             |
-| lt(angle)          | angle	     | Turns the turtle counter clockwise                                             |
-| penup()	           | None	      | Picks up the turtle’s Pen                                                      |
+| right(angle)	      | angle  	    | Turns the turtle clockwise                                                     |
+| rt(angle)	          | angle  	    | Turns the turtle clockwise                                                     |
+| left(angle)         | angle	      | Turns the turtle counter clockwise                                             |
+| lt(angle)           | angle	      | Turns the turtle counter clockwise                                             |
+| penup()	            | None	      | Picks up the turtle’s Pen                                                      |
 | up()	              | None	      | Picks up the turtle’s Pen                                                      |
-| pendown()	         | None	      | Puts down the turtle’s Pen                                                     |
+| pendown()	          | None	      | Puts down the turtle’s Pen                                                     |
 | down()	            | None	      | Puts down the turtle’s Pen                                                     |
-| color()	           | color name | Changes the color of the turtle’s pen                                          |
-| fillcolor()        |	color name |	Changes the color of the turtle will use to fill a polygon                     |
-| heading()	         | None	      | Sets and returns the current heading                                           |
+| color(*args)	      | color name  | Returns or sets pen color and fill color                                       |
+| pencolor(*args)	    | color name  | Returns or sets pen color                                                      |
+| fillcolor(*args)    |	color name  |	Returns or sets the fill color                                                 |
+| heading()	          | None	      | Sets and returns the current heading                                           |
 | seth()	            | None	      | Sets and returns the current heading                                           |
 | position()	        | None	      | Returns the current position                                                   |
 | goto()	            | x, y	      | Moves the turtle to position x,y                                               |
-| begin_fill()       | None 	     | Remember the starting point for a filled polygon                               |
+| begin_fill()        | None 	      | Remember the starting point for a filled polygon                               |
 | end_fill()	        | None	      | Closes the polygon and fills with the current fillcolor                        |
-| dot()	             | None	      | Prints a dot at the current position                                           |
-| stamp()	           | None	      | Prints an impression of a turtle shape at the current location                 |
-| shape()            | shapename	 | Can be 'turtle', 'arrow', 'classic', 'circle', 'square', 'triangle' or 'blank' |
-| xcor()             | None       | Get the x-coordinate of the turtle                                             |
-| ycor()             | None       | Get the y-coordinate of the turtle                                             |
+| dot()	              | None	      | Prints a dot at the current position                                           |
+| stamp()	            | None	      | Prints an impression of a turtle shape at the current location                 |
+| shape()             | shapename	  | Can be 'turtle', 'arrow', 'classic', 'circle', 'square', 'triangle' or 'blank' |
+| xcor()              | None        | Get the x-coordinate of the turtle                                             |
+| ycor()              | None        | Get the y-coordinate of the turtle                                             |
 
 Not working commands from the documentation:
 
