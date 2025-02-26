@@ -58,11 +58,12 @@ To use Turtle Graphics one need a turtle (screen) object.
 ## Add Background to the Window
 
 ```
-x0, y0 = -int(screen_x/2), -int(screen/2)
+bg_color
+x0, y0 = -int(screen_x/2), -int(screen_y/2)
 x1, y1 = int(screen_x/2), int(screen_y/2)
 cs = ts.getscreen()
 tkwin = cs.getcanvas()
-tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
+tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=bg_color, fill=bg_color)
 ```
 
 By adding a rectangle one can change the background. The reason is explained later.
@@ -78,4 +79,9 @@ tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
 ```
 This modifies the rectangle in a way, that one has a one pixel border around the 
-drawing area.  The reason is explained later.
+drawing area. The reason is explained later.
+
+## Putting the Things Together
+
+![image](https://github.com/user-attachments/assets/e2c6b664-2a42-40cd-bd7e-c98d6a0bbbbc)
+
