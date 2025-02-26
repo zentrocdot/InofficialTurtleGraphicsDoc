@@ -62,6 +62,9 @@ To use Turtle Graphics one need a turtle (screen) object.
 
 ## Add Background to the Window
 
+For adding a background to the window one is using a canvas from 
+tkinter. The rectangle canvas is what one needs for this goal.
+
 ```
 bg_color
 x0, y0 = -int(screen_x/2), -int(screen_y/2)
