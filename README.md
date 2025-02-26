@@ -1,9 +1,9 @@
 # Inofficial Turtle Graphics Documentation
 
 > [!NOTE]
-> 🚧 <p align="justify">Over time, this will be my personal
-> Turtle Graphics documentation with how to instructions and
-> tips and tricks. This is done alongside my programming
+> <p align="justify">🚧 Over time, this will be my personal
+> Turtle Graphics documentation with how to instructions
+> and tips and tricks. This is done alongside my programming
 > activities.</p>
 
 ## 🐢 Turtle Graphics
