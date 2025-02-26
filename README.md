@@ -127,7 +127,20 @@ window is open.
 
 Not working commands from the documentation:
 
+| METHOD       | PARAMETER  | DESCRIPTION |
+| :----------: | :--------: | :---------: |
 | teleport()   | x,y	 | Moves the turtle to position x,y without printing |
+
+## Turtle Version
+
+One gets the turtle version by the command: 
+
+<pre>print(turtle._ver)</pre>
+
+In my case the result looks like:
+
+<pre>turtle 1.1b- - for Python 3.1   -  4. 5. 2009</pre>
+
 
 # References
 
