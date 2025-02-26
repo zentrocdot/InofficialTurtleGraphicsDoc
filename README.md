@@ -108,8 +108,12 @@ around the drawing area. The reason is explained later.
 
 If one inspects the behaviour of the frame one sees that 
 two sides show 2 pixel width and the other two sides 6 pixel
-width which should normally not happened. 
+width which should normally not happened. 2 sides show a discrepancy
+of 4 pixels. Whether this is a Turtle Graphics error or a Tkinter
+error is not yet clear.
 
+One result next to the later discussed problem is, that an object is 
+never centered in the screen. 
 
 ## Interactive Turtle Graphics
 
