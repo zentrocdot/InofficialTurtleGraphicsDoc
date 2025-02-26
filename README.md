@@ -1,4 +1,4 @@
-# Inofficial Turtle Graphics Docs
+# Unofficial Turtle Graphics Docs
 > [!NOTE]
 > <p align="justify">🚧 Over time, this will be my personal
 > Turtle Graphics documentation with how to instructions
