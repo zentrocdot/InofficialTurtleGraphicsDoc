@@ -99,8 +99,8 @@ cs = ts.getscreen()
 tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
 ```
-This modifies the rectangle in a way, that one has a one pixel border around the 
-drawing area. The reason is explained later.
+This modifies the rectangle in a way, that one has a two pixel border (plus 4 pixel)
+around the drawing area. The reason is explained later.
 
 ## Putting the Things Together
 
