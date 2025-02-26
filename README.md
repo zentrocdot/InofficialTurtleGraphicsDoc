@@ -113,8 +113,8 @@ window is open.
 | pendown()	   | None	      | Puts down the turtle’s Pen                                     |
 | up()	        | None	      | Picks up the turtle’s Pen                                      |
 | down()	      | None	      | Puts down the turtle’s Pen                                     |
-| color()	     | Color name | Changes the color of the turtle’s pen                          |
-| fillcolor()  |	Color name |	Changes the color of the turtle will use to fill a polygon     |
+| color()	     | color name | Changes the color of the turtle’s pen                          |
+| fillcolor()  |	color name |	Changes the color of the turtle will use to fill a polygon     |
 | heading()	   | None	      | Sets and returns the current heading                           |
 | seth()	      | None	      | Sets and returns the current heading                           |
 | position()	  | None	      | Returns the current position                                   |
@@ -124,6 +124,7 @@ window is open.
 | dot()	       | None	      | Prints a dot at the current position                           |
 | stamp()	     | None	      | Prints an impression of a turtle shape at the current location |
 | shape()      | shapename	 | Should be 'turtle', 'arrow', 'classic' or 'circle'             |
+| home()       | None       | Move turtle to the origin (0,0)                                |
 
 Not working commands from the documentation:
 
@@ -141,6 +142,11 @@ In my case the result looks like:
 
 <pre>turtle 1.1b- - for Python 3.1   -  4. 5. 2009</pre>
 
+## Radians Versus Degrees
+
+Turn turtle right or turn turtle left can be done by angle units.
+Angle units by default are in degrees, but can be set via the 
+degrees() or radians() functions to each other.
 
 # References
 
