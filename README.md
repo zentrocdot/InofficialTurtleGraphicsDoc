@@ -184,6 +184,14 @@ In my case the result looks like:
 Angle units by default are in degrees, but can be set via the 
 degrees() or radians() functions to each other.</p> 
 
+## Pictures
+
+One can add pictures to the window. This is done by:
+
+sc.bgpic("test.gif")
+
+![image](https://github.com/user-attachments/assets/519d40b7-c4c0-4d6f-ba0e-954ab4275728)
+
 # References
 
 [1] https://docs.python.org/3/library/turtle.html
