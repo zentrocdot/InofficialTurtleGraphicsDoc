@@ -30,14 +30,18 @@ of 512 x 512 pixel.
 ## Setup Turtle Graphics Window
 
 ```
-window_titel = "Turtle Graphics Demo"
-background_color = "cyan"
+window_title = "Turtle Graphics Demo"
+background_color = "red"
 turtle.title(window_title)
 turtle.bgcolor(background_color)
 ```
 
 This is changing the title of the Turtle Graphics window.
-The background color is also changed from white to cyan.
+The background color is also changed from white to red.
+
+## Putting the Things Together
+
+![image](https://github.com/user-attachments/assets/04e7ac38-9bd0-4693-8eb6-115bf8442e7c)
 
 ## Setup a Turtle Screen Object
 
