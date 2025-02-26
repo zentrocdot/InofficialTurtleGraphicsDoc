@@ -11,6 +11,9 @@
 import turtle
 ```
 
+After importing the standard Python module turtle
+one is ready to use Turtle graphics.
+
 ## Setup Turtle Graphics Screen
 
 ```
@@ -20,20 +23,29 @@ sc = turtle.Screen()
 sc.setup(screen_x, screen_y)
 ```
 
+Based on my monitor which has a resolution of 1366 x 768 pixel
+I have chosen a square Turtle Graphics screen with a resolution
+of 512 x 512 pixel.
+
 ## Setup Turtle Graphics Window
 
 ```
-TURTLE_TITLE = "Turtle Graphics Demo"
-BACKGROUND_COLOR = "cyan"
-turtle.title(TURTLE_TITLE)
-turtle.bgcolor(BACKGROUND_COLOR)
+window_titel = "Turtle Graphics Demo"
+background_color = "cyan"
+turtle.title(window_title)
+turtle.bgcolor(background_color)
 ```
+
+This is changing the title of the Turtle Graphics window.
+The background color is also changed from white to cyan.
 
 ## Setup a Turtle Screen Object
 
 ```
 ts = turtle.Turtle()
 ```
+
+To use Turtle Graphics one need a turtle (screen) object.
 
 ## Add Background to the Window
 
@@ -45,6 +57,8 @@ tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
 ```
 
+By adding a rectangle one can change the background. The reason is explained later.
+
 ## Add Background Correction to the Window
 
 ```
@@ -55,3 +69,5 @@ cs = ts.getscreen()
 tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
 ```
+This modifies the rectangle in a way, that one has a one pixel border around the 
+drawing area.  The reason is explained later.
