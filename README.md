@@ -196,11 +196,40 @@ One can add pictures to the window. This is done by the following command.
 
 ![image](https://github.com/user-attachments/assets/1f6763fb-1079-4ef4-97a4-d1ae8d42eb39)
 
-# Colors
+## Colors
 
 Colors can be set using RGB color tuples like (255, 0, 0) 
 which is red. Names can be used like 'blue' ore  one can
 use a HEX representation like '#00FF00' which is lime.
+
+## Helper Functions
+
+### Color To RGB Function
+
+This function needs the Python package webcolors. The goal
+is to return a color tuple from an arbitrary color input.
+
+```
+def color_to_rgb(color):
+    # Try to get the RGB color.
+    try:
+        # Check the type of the color.
+        if color is not None:
+            if color.startswith('#'):
+                rgb = webcolors.hex_to_rgb(color)
+            elif color is None or isinstance(color, (list, tuple)):
+                rgb = color
+            elif isinstance(color, str):
+                rgb = webcolors.name_to_rgb(color)
+            # Get the RGB components.
+            r,g,b = rgb[0], rgb[1], rgb[2]
+        else:
+            r,g,b = 0,0,0
+    except:
+        r,g,b = 0,0,0
+    # Return the RGB color tuple.
+    return r,g,b
+```
 
 # References
 
