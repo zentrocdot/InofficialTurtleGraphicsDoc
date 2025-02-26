@@ -43,6 +43,10 @@ The background color is also changed from white to red.
 
 ![image](https://github.com/user-attachments/assets/04e7ac38-9bd0-4693-8eb6-115bf8442e7c)
 
+The frame type for the drawing area we can see is so-called sunken. 
+At the top and at the left there is a dark shadow. At the bottom and
+at the right there is a light shadow. 
+
 ## Setup a Turtle Screen Object
 
 ```
