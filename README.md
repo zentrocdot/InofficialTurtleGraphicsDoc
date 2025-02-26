@@ -188,7 +188,7 @@ degrees() or radians() functions to each other.</p>
 
 One can add pictures to the window. This is done by:
 
-sc.bgpic("test.gif")
+<pre>sc.bgpic("test.gif")</pre>
 
 ![image](https://github.com/user-attachments/assets/519d40b7-c4c0-4d6f-ba0e-954ab4275728)
 
