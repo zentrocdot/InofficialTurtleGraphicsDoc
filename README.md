@@ -30,6 +30,7 @@ creating images.</p>
 ```
 screen_x = 512
 screen_y = 512
+
 sc = turtle.Screen()
 sc.setup(screen_x, screen_y)
 ```
@@ -45,6 +46,7 @@ screen setup is done at this point.</p>
 ```
 window_title = "Turtle Graphics Demo"
 background_color = "red"
+
 turtle.title(window_title)
 turtle.bgcolor(background_color)
 ```
@@ -81,6 +83,7 @@ is what one needs for this goal.</p>
 bg_color
 x0, y0 = -int(screen_x/2), -int(screen_y/2)
 x1, y1 = int(screen_x/2), int(screen_y/2)
+
 cs = ts.getscreen()
 tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=bg_color, fill=bg_color)
@@ -105,6 +108,7 @@ causes difficulties later on.</p>
 pad = 6
 x0, y0 = -int(screen_x/2)+pad, -int(screen_y/2)+pad
 x1, y1 = int(screen_x/2)-pad, int(screen_y/2)-pad
+
 cs = ts.getscreen()
 tkwin = cs.getcanvas()
 tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
