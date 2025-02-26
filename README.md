@@ -35,11 +35,9 @@ sc.setup(screen_x, screen_y)
 
 <p align="justify">Based on my monitor which has a resolution
 of 1366 x 768 pixel I have chosen a square Turtle Graphics
-screen with a resolution of 512 x 512 pixel.</p>
-
-<p align="justify">After initialising the screen we will need 
-the screen object sc no longer. The screen setup is done at
-this point.</p>
+screen with a resolution of 512 x 512 pixel. After initialising
+the screen we will need the screen object sc no longer. The 
+screen setup is done at this point.</p>
 
 ## Setup Turtle Graphics Window
 
