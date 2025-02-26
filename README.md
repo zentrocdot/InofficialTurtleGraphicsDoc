@@ -6,6 +6,8 @@
 > and tips and tricks. This is done alongside my programming
 > activities.</p>
 
+![ComfyUI_00953_](https://github.com/user-attachments/assets/5d5212ed-1311-46b1-8441-489c0a87b425)
+
 ## 🐢 Turtle Graphics
 
 <p align="justify">This documentation is related to the Python 
