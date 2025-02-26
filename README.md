@@ -1,11 +1,11 @@
 # Turtle Graphics Documentation
 
 > [!NOTE]
-> Over time, this will be my personal Turtle Graphics
+> 🚧 Over time, this will be my personal Turtle Graphics
 > documentation with how to instructions and tips and
 > tricks. This is done alongside my programming activities.
 
-## Get Started
+## 🚀 Get Started
 
 ```
 import turtle
@@ -85,3 +85,7 @@ drawing area. The reason is explained later.
 
 ![image](https://github.com/user-attachments/assets/e2c6b664-2a42-40cd-bd7e-c98d6a0bbbbc)
 
+In this window we see something that we should not see. 
+The background is not completely blue as it should be We
+see something like a border in red which is 1 point thick.
+ 
