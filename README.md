@@ -88,4 +88,6 @@ drawing area. The reason is explained later.
 In this window we see something that we should not see. 
 The background is not completely blue as it should be We
 see something like a border in red which is 1 point thick.
+This thin border in particular causes difficulties later on.
+
  
