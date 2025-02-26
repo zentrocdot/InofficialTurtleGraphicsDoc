@@ -192,6 +192,10 @@ One can add pictures to the window. This is done by:
 
 ![image](https://github.com/user-attachments/assets/519d40b7-c4c0-4d6f-ba0e-954ab4275728)
 
+# Colors
+
+
+
 # References
 
 [1] https://docs.python.org/3/library/turtle.html
