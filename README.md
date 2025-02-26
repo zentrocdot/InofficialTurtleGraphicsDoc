@@ -105,6 +105,7 @@ window is open.
 | METHOD       | PARAMETER  | DESCRIPTION |
 | :----------: | :--------: | :---------: |
 | Turtle()	    | None	      | Creates and returns a new turtle object                        |
+| home()       | None       | Move turtle to the origin (0,0)                                |
 | forward()	   | amount     |	Moves the turtle forward by the specified amount               |
 | fd()	        | amount     |	Moves the turtle forward by the specified amount               |
 | backward()	  | amount	    | Moves the turtle backward by the specified amount              |
@@ -113,8 +114,8 @@ window is open.
 | right()	     | angle  	   | Turns the turtle clockwise                                     |
 | left()	      | angle	     | Turns the turtle counter clockwise                             |
 | penup()	     | None	      | Picks up the turtle’s Pen                                      |
-| pendown()	   | None	      | Puts down the turtle’s Pen                                     |
 | up()	        | None	      | Picks up the turtle’s Pen                                      |
+| pendown()	   | None	      | Puts down the turtle’s Pen                                     |
 | down()	      | None	      | Puts down the turtle’s Pen                                     |
 | color()	     | color name | Changes the color of the turtle’s pen                          |
 | fillcolor()  |	color name |	Changes the color of the turtle will use to fill a polygon     |
@@ -127,7 +128,7 @@ window is open.
 | dot()	       | None	      | Prints a dot at the current position                           |
 | stamp()	     | None	      | Prints an impression of a turtle shape at the current location |
 | shape()      | shapename	 | Should be 'turtle', 'arrow', 'classic' or 'circle'             |
-| home()       | None       | Move turtle to the origin (0,0)                                |
+
 
 Not working commands from the documentation:
 
