@@ -7,9 +7,9 @@
 
 ## 🐢 Turtle Graphics
 
-This documentation is related to the Python standard turtle library.
+This documentation is related to the Python standard turtle library [1].
 
-## 🚀 Get Started
+## 🚀 Getting Started
 
 Import the standard Python module turtle to get started.
 
