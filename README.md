@@ -5,6 +5,9 @@
 > and tips and tricks. This is done alongside my programming
 > activities.</p>
 
+![banner_](https://github.com/user-attachments/assets/ede4d28d-f558-4869-94ab-bbe0fa017a9b)
+
+
 ![ComfyUI_00953_](https://github.com/user-attachments/assets/5d5212ed-1311-46b1-8441-489c0a87b425)
 
 ## 🐢 Turtle Graphics
