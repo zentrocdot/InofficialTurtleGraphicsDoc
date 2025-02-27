@@ -212,28 +212,44 @@ lime.</p>
 ## Get the Turtle Graphics Root Window
 
 <p align="justify">To get control over the Turtle Graphics
-window one needs the underlying Tkinter window. The following 
-command returns the Canvas of the invoked TurtleScreen.</p> 
+window one needs the underlying Tkinter window. There are 
+two ways to get the root window. Both are presented 
+subsequently. The following command returns the Canvas of
+the invoked TurtleScreen.</p> 
 
 ```
 # Get screen canvas.
 canvas = turtle.getcanvas()
 ```
 
-<p align="justify">
-There are two ways to get the root window. The first one is
-not the proposed way, it makes use of a protected member of
-a client class. The second one is the one which one should use
-to get the root window.</p> 
-
-```
-# Get the root window.
-root = turtle.getscreen()._root
-```
+<p align="justify">Then one can get the root window directly.
+This way is the way one should use to get the root window.</p> 
 
 ```
 # Get the root window.
 root = canvas.winfo_toplevel()
+```
+
+<p align="justify">The other way is not the proposed way, it 
+makes use of a protected member of a client class. First one
+can get the Turtle screen object where the turtle is drawing
+on.</p> 
+
+```
+# Get the Turtle screen.
+screen = turtle.getscreen()
+```
+
+<p align="justify">Then one can get the root window.</p>
+
+```
+# Get the root window.
+root = screen._root
+
+or in short
+
+# Get the root window.
+root = turtle.getscreen()._root
 ```
 
 ## Helper Functions
