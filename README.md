@@ -243,12 +243,12 @@ screen = turtle.getscreen()
 <p align="justify">Then one can get the root window.</p>
 
 ```
-# Get the root window.
+# Get the root window using the Turtle screen.
 root = screen._root
 
 or in short
 
-# Get the root window.
+# Get the root window directly.
 root = turtle.getscreen()._root
 ```
 
