@@ -188,13 +188,15 @@ In my case the result looks like:
 
 ## Radians Versus Degrees
 
-<p align="justify">Turn turtle right or turn turtle left can be done by angle units.
-Angle units by default are in degrees, but can be set via the 
-degrees() or radians() functions to each other.</p> 
+<p align="justify">Turn turtle right or turn turtle left can 
+be done by angle units. Angle units by default are in degrees,
+but can be set via the degrees() or radians() functions to each
+other.</p> 
 
 ## Pictures
 
-One can add pictures to the window. This is done by the following command.
+<p align="justify">One can add pictures to the window. This is 
+done by the following command.</p> 
 
 <pre>sc.bgpic("test.gif")</pre>
 
@@ -202,9 +204,27 @@ One can add pictures to the window. This is done by the following command.
 
 ## Colors
 
-Colors can be set using RGB color tuples like (255, 0, 0) 
-which is red. Names can be used like 'blue' ore  one can
-use a HEX representation like '#00FF00' which is lime.
+<p align="justify">Colors can be set using RGB color tuples
+like (255, 0, 0) which is red. Names can be used like 'blue' 
+or one can use a HEX representation like '#00FF00' which is
+lime.</p> 
+
+## Get Root Window
+
+```
+# Get screen canvas.
+canvas = turtle.getcanvas()
+```
+
+```
+# Get the root window.
+root = turtle.getscreen()._root
+```
+
+```
+# Get the root window.
+root = canvas.winfo_toplevel()
+```
 
 ## Helper Functions
 
