@@ -98,20 +98,21 @@ the background. The reason is explained later.</p>
 
 <p align="justify">In this window we see something that
 we should not see. The background is not completely blue
-as it should be We see something like a border in red
+as it should be. We see something like a border in red
 which is 2 point thick. This thin border in particular
 causes difficulties later on.</p> 
 
 ## Add a Background Correction to the Window
 
 ```
+bg_color = "blue"
 pad = 6
 x0, y0 = -int(screen_x/2)+pad, -int(screen_y/2)+pad
 x1, y1 = int(screen_x/2)-pad, int(screen_y/2)-pad
 
 cs = ts.getscreen()
 tkwin = cs.getcanvas()
-tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=BG_COLOR, fill=BG_COLOR)
+tkwin.create_rectangle(x0, y0, x1, y1, width=0, outline=bg_color, fill=bg_color)
 ```
 
 <p align="justify">This modifies the rectangle in a way,
