@@ -209,12 +209,22 @@ like (255, 0, 0) which is red. Names can be used like 'blue'
 or one can use a HEX representation like '#00FF00' which is
 lime.</p> 
 
-## Get Root Window
+## Get the Turtle Graphics Root Window
+
+<p align="justify">To get control over the Turtle Graphics
+window one needs the underlying Tkinter window. The following 
+command returns the Canvas of the invoked TurtleScreen.</p> 
 
 ```
 # Get screen canvas.
 canvas = turtle.getcanvas()
 ```
+
+<p align="justify">
+There are two ways to get the root window. The first one is
+not the proposed way, it makes use of a protected member of
+a client class. The second one is the one which one should use
+to get the root window.</p> 
 
 ```
 # Get the root window.
