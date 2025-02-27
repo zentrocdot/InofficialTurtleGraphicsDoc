@@ -80,7 +80,7 @@ one is using a canvas from tkinter. The rectangle canvas
 is what one needs for this goal.</p> 
 
 ```
-bg_color
+bg_color = "blue"
 x0, y0 = -int(screen_x/2), -int(screen_y/2)
 x1, y1 = int(screen_x/2), int(screen_y/2)
 
