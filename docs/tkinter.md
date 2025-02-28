@@ -129,7 +129,7 @@ root.attributes("-alpha", 0.75)
 ## Window Access
 
 <p align="justify">Subsequently I am showing how one 
-can access to a Turtle Graphis window and its components.
+can access a Turtle Graphics window and its components.
 Figure 1 shows a Turtle Graphic window where I changed
 the configuration.</p>
 
