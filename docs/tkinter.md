@@ -35,6 +35,10 @@ win_1 = tk.Tk()
 tk.mainloop()
 ```
 
+<p align="justify">In Tkinter the last command in a script is 
+<pre>tk.mainloop().</pre>. The counterpart of this command in
+Turtle Graphics is <pre>turtle.mainloop().</pre></p>
+
 <p align="justify">What is shown here is not visible done
 in the background at Turtle Graphics on start up. For what 
 follows one can make use of this behaviour.</p>
