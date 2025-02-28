@@ -31,22 +31,22 @@ root = canvas.winfo_toplevel()
 
 <p align="justify">The other way is not the proposed way, it 
 makes use of a protected member of a client class. First one
-can get the Turtle screen object where the turtle is drawing
+can get the turtle screen object where the turtle is drawing
 on.</p> 
 
 ```
-# Get the Turtle screen.
+# Get the turtle screen.
 screen = turtle.getscreen()
 ```
 
 <p align="justify">Then one can get the root window.</p>
 
 ```
-# Get the root window using the Turtle screen.
+# Get the root window using the turtle screen.
 root = screen._root
 ```
 
-or in short
+<p align="justify">or in short written as</p> 
 
 ```
 # Get the root window directly.
@@ -57,24 +57,26 @@ root = turtle.getscreen()._root
 
 <p align="justify">From within Turtle Graphics we are
 dealing now with Tkinter. By using the now known root
-window we can show and hide the Turtle Graphics window.</p>
+window we can show and hide the Turtle Graphics window
+like we need this. The command</p>
 
 ```
 root.withdraw()
 ```
 
 <p align="justify">removes the Turtle Graphics
-window an</p> 
+window and the command</p> 
 
 ```
 root.deiconify()
 ```
 
-<p align="justify">restores the window.</p>
+<p align="justify">restores the window. Alternatively
+one can minimize the window by using the command</p>
 
-<p align="justify">This described behaviour is
-not officially documented in the Turtle Graphics
-documentations.</p>
+```
+root.deiconify()
+```
 
 ## Window Access
 
