@@ -253,20 +253,6 @@ or in short
 root = turtle.getscreen()._root
 ```
 
-From within Turtle Graphics we are dealing now with Tkinter. By using the
-now known root window we can show and hide the Turtle Graphics window.
-
-root.withdraw()
-
-removes the Turtle Graphics window an 
-
-root.deiconify()
-
-restores the window.
-
-This described behaviour is not officially documented in the Turtle Graphics
-documentations.
-
 ## Helper Functions
 
 ### Color To RGB Function
