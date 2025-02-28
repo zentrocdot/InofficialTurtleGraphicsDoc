@@ -98,21 +98,21 @@ by the following command for the root window.</p>
 root.configure(cursor="mouse")
 ```
 			
-| Name                | Name              | Name                |  Name            | Name                 | Name              |    
-| :------------------ | :---------------- | :------------------ | :--------------- | :------------------- | :---------------- |
-| arrow               | hand1	          | hand2               | mouse            | top_side             | man               | 
-| based_arrow_down    | middlebutton      | based_arrow_up      | umbrella         | top_right_corner     | ul_angle          |
-| boat                | pencil            | bogosity            | pirate           | bottom_left_corner   | plus              |  
-| bottom_right_corner | question_arrow    | bottom_side         | right_ptr        | bottom_tee           | right_side        | 
-| box_spiral          | right_tee         | center_ptr          | rightbutton      | circle               | rtl_logo          | 
-| clock               | sailboat          | coffee_mug          | sb_down_arrow    | cross                | sb_h_double_arrow |
-| cross_reverse       | sb_left_arrow     | crosshair           | sb_right_arrow   | diamond_cross        | sb_up_arrow       |
-| dot                 | sb_v_double_arrow | dotbox              | shuttle          | double_arrow         | sizing            | 
-| draft_large         | spider            | draft_small         | spraycan         | draped_box	          | star              | 
-| exchange            | target            | fleur	        | tcross           | gobbler              | top_left_arrow    |
-| gumby	              | top_left_corner   | iron_cross          | heart            | top_tee              | icon              |
-| trek                | left_ptr          | X_cursor            | left_side	   | ur_angle             | left_tee	      |
-| watch               | leftbutton	  | xterm               | ll_angle	   | lr_angle             |                   |
+| Name                | Name              | Name                |  Name            | Name                 | Name                |    
+| :------------------ | :---------------- | :------------------ | :--------------- | :------------------- | :------------------ |
+| arrow               | hand1	          | hand2               | mouse            | top_side             | man                 | 
+| based_arrow_down    | based_arrow_up    | middlebutton        | umbrella         | top_right_corner     | ul_angle            |
+| boat                | pencil            | bogosity            | pirate           | bottom_left_corner   | bottom_right_corner |  
+| plus                | question_arrow    | bottom_side         | bottom_tee       | right_ptr            | right_side          | 
+| box_spiral          | right_tee         | center_ptr          | rightbutton      | circle               | rtl_logo            | 
+| clock               | sailboat          | coffee_mug          | sb_down_arrow    | cross                | cross_reverse       |
+| sb_h_double_arrow   | sb_left_arrow     | crosshair           | sb_right_arrow   | diamond_cross        | sb_up_arrow         |
+| dot                 | dotbox            | sb_v_double_arrow   | shuttle          | double_arrow         | sizing              | 
+| draft_large         | spider            | draft_small         | spraycan         | draped_box	          | star                | 
+| exchange            | target            | fleur	        | tcross           | gobbler              | top_left_arrow      |
+| gumby	              | top_left_corner   | iron_cross          | heart            | top_tee              | icon                |
+| trek                | left_ptr          | X_cursor            | left_side	   | ur_angle             | left_tee	        |
+| watch               | leftbutton	  | xterm               | ll_angle	   | lr_angle             |                     |
 
 # References
 
