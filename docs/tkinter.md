@@ -9,6 +9,28 @@ Turtle Graphics module. To gain control over the Turtle
 Graphics window, you need the Tkinter window on which this
 window is based.</p>
 
+## The Toplevel Window
+
+<p align="justify">Using Tkinter one invokes a top level window as follows.</p>
+
+```
+root = tk.Tk()
+```
+
+```
+#!/usr/bin/python
+
+# Import tkinter as tk.
+import tkinter as tk
+
+# Create two top-level windows.
+win_0 = tk.Tk()
+win_1 = tk.Tk()
+
+# Keep windows open.
+tk.mainloop()
+```
+
 ## Get the Turtle Graphics Root Window
 
 <p align="justify">There are two ways to get the
