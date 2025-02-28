@@ -267,7 +267,6 @@ restores the window.
 This described behaviour is not officially documented in the Turtle Graphics
 documentations.
 
-
 ## Helper Functions
 
 ### Color To RGB Function
