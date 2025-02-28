@@ -63,3 +63,9 @@ restores the window.
 
 This described behaviour is not officially documented in the Turtle Graphics
 documentations.
+
+## Window Access
+
+![image](https://github.com/user-attachments/assets/9017e48b-e0aa-41dd-b09f-9659272b0f60)
+
+
