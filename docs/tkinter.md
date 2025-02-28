@@ -90,7 +90,7 @@ the configuration.</p>
 *Figure 1: Modified Turtle Graphics window*
 
 ## Cursors
-
+			
 | Name                | Name              | Name                |  Name            | Name                 | Name              |    
 | :------------------ | :---------------- | :------------------ | :--------------- | :------------------- | :---------------- |
 | arrow               | man               | based_arrow_down    | middlebutton     | based_arrow_up       | mouse             |
@@ -102,8 +102,11 @@ the configuration.</p>
 | dot                 | sb_v_double_arrow | dotbox              | shuttle          | double_arrow         | sizing            | 
 | draft_large         | spider            | draft_small         | spraycan         | draped_box	          | star              | 
 | exchange            | target            | fleur	              | tcross           | gobbler              | top_left_arrow    |
-| gumby	              | top_left_corner   | hand1	              | top_right_corner | hand2	              | top_side          |
+| gumby	              | top_left_corner   | hand1	              | hand2            | top_right_corner     | top_side          |
 | heart               |	top_tee           | icon                | trek             | iron_cross	          | ul_angle          |
 | left_ptr            | umbrella          | left_side	          | ur_angle         | left_tee	            | watch             |
 | leftbutton	        | xterm             | ll_angle	          | X_cursor         | lr_angle             |                   |
 
+# References
+
+[1] https://tkdocs.com/shipman/cursors.html
