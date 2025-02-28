@@ -2,12 +2,12 @@
 
 ## Introductory Words
 
-<p align="justify">Underlying Turtle Graphics 
-the module Tkinter further called simply Tkinter 
-is used. Things can be achieved via Tkinter that
-cannot be achieved via the Turtle Graphics module.
-To get control over the Turtle Graphics window one
-needs the underlying Tkinter window.</p>
+<p align="justify">Behind Turtle Graphics is the Tkinter
+module, from now on simply called Tkinter. Tkinter can be
+used to achieve things that are not possible with the
+Turtle Graphics module. To gain control over the Turtle
+Graphics window, you need the Tkinter window on which this
+window is based.</p>
 
 ## Get the Turtle Graphics Root Window
 
