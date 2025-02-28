@@ -30,19 +30,20 @@ import tkinter as tk
 win_0 = tk.Tk()
 win_1 = tk.Tk()
 
-# Keep the windows open.
+# Keep the two windows open.
 tk.mainloop()
 ```
 
 <p align="justify">What is shown here is not visible done
-in the background at Turtle Graphics.</p>
+in the background at Turtle Graphics on start up. For what 
+follows one can make use of this behaviour.</p>
 
 ## Get the Turtle Graphics Root Window
 
 <p align="justify">There are two ways to get the
-root window. Both are presented subsequently. The
-following command returns the Canvas of the invoked
-TurtleScreen.</p> 
+Turtle Graphics root window. Both are presented
+subsequently. The following command returns the
+Canvas of the invoked Turtle Screen.</p> 
 
 ```
 # Get screen canvas.
