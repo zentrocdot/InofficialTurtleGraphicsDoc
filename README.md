@@ -140,7 +140,7 @@ window is open.</p>
 ## Some Commands
 
 | METHOD              | PARAMETER   | DESCRIPTION |
-| :----------------- | :---------: | :---------: |
+| :----------------- | :--------- | :--------- |
 | Turtle()	          | None	      | Creates and returns a new turtle object                                        |
 | home()              | None        | Move turtle to the origin (0,0)                                                |
 | forward(distance)   | amount      |	Moves the turtle forward by the specified amount                               |
@@ -219,7 +219,11 @@ This function needs the Python package webcolors. The goal
 is to return a color tuple from an arbitrary color input.
 
 ```
+# -----------------------
+# Function color_to_rgb()
+# -----------------------
 def color_to_rgb(color):
+    '''Color to RGB function.'''
     # Try to get the RGB color.
     try:
         # Check the type of the color.
