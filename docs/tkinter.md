@@ -123,6 +123,23 @@ the configuration.</p>
 
 *Figure 1: Modified Turtle Graphics window*
 
+First one can idetify the canvas of interest as followed described.
+
+```
+for item in root.pack_slaves():
+    if isinstance(item, turtle.ScrolledCanvas):
+        ScrolledCanvas = item._canvas
+```
+
+Then one can configure the canvas.
+
+```
+ScrolledCanvas.configure(bg='#00ffff')
+ScrolledCanvas.configure(borderwidth=10)
+ScrolledCanvas.configure(relief='groove')
+ScrolledCanvas.configure(cursor="spider")
+```
+
 ## Cursors
 
 <p align="justify">The mouse pointer can be changed
