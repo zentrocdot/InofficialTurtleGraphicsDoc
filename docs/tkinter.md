@@ -53,7 +53,7 @@ root = screen._root
 root = turtle.getscreen()._root
 ```
 
-## Show and Hide a Window
+## Show and Hide a Root Window
 
 <p align="justify">From within Turtle Graphics we are
 dealing now with Tkinter. By using the now known root
