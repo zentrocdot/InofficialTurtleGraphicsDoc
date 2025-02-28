@@ -1,4 +1,4 @@
-# Unofficial Turtle Graphics Docs
+I'm# Unofficial Turtle Graphics Docs
 > [!NOTE]
 > <p align="justify">🚧 Over time, this will be my personal
 > Turtle Graphics documentation with how to instructions
@@ -140,7 +140,7 @@ window is open.</p>
 ## Some Commands
 
 | METHOD              | PARAMETER   | DESCRIPTION |
-| :-----------------: | :---------: | :---------: |
+| :----------------- | :---------: | :---------: |
 | Turtle()	          | None	      | Creates and returns a new turtle object                                        |
 | home()              | None        | Move turtle to the origin (0,0)                                                |
 | forward(distance)   | amount      |	Moves the turtle forward by the specified amount                               |
