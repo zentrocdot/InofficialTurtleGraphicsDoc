@@ -44,9 +44,11 @@ screen = turtle.getscreen()
 ```
 # Get the root window using the Turtle screen.
 root = screen._root
+```
 
 or in short
 
+```
 # Get the root window directly.
 root = turtle.getscreen()._root
 ```
