@@ -75,7 +75,7 @@ root.deiconify()
 one can minimize the window by using the command</p>
 
 ```
-root.deiconify()
+root.iconify()
 ```
 
 ## Window Access
