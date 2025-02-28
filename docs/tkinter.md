@@ -11,7 +11,7 @@ window is based.</p>
 
 ## The Toplevel Window
 
-<p align="justify">Using Tkinter one invokes a top level window as follows.</p>
+<p align="justify">Using Tkinter one invokes a top-level window as follows written.</p>
 
 ```
 root = tk.Tk()
