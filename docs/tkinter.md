@@ -27,6 +27,7 @@ two top-level windows looks as follows.</p>
 import tkinter as tk
 
 # Create two top-level windows.
+# root = tk.Tk()
 win_0 = tk.Tk()
 win_1 = tk.Tk()
 
