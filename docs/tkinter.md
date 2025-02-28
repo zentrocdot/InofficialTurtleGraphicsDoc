@@ -1,4 +1,4 @@
-hi# Turtle Graphics & Tkinter
+hihi# Turtle Graphics & Tkinter
 
 ## Introductory Words
 
@@ -121,7 +121,9 @@ root.iconify()
 ## Configure the Root Window
 
 root.title("Tkinter & Turtle Graphics Demo")
+
 root.geometry("1366x760+0+0")
+
 root.attributes("-alpha", 0.75)
 
 ## Window Access
