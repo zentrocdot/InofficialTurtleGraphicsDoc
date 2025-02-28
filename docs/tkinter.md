@@ -54,7 +54,7 @@ follows one can make use of this behaviour.</p>
 <p align="justify">There are two ways to get the
 Turtle Graphics root window. Both are presented
 subsequently. The following command returns the
-Canvas of the invoked Turtle Screen.</p> 
+canvas of the invoked turtle screen.</p> 
 
 ```
 # Get screen canvas.
