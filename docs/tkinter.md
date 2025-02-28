@@ -17,6 +17,9 @@ window is based.</p>
 root = tk.Tk()
 ```
 
+<p align="justify">A minimal Python script for creating
+two top-level windows looks as follows.</p>
+
 ```
 #!/usr/bin/python
 
@@ -27,9 +30,12 @@ import tkinter as tk
 win_0 = tk.Tk()
 win_1 = tk.Tk()
 
-# Keep windows open.
+# Keep the windows open.
 tk.mainloop()
 ```
+
+<p align="justify">What is shown here is not visible done
+in the background at Turtle Graphics.</p>
 
 ## Get the Turtle Graphics Root Window
 
