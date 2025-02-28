@@ -112,6 +112,12 @@ one can minimize the window by using the command</p>
 root.iconify()
 ```
 
+## Configure the Root Window
+
+root.title("Tkinter & Turtle Graphics Demo")
+root.geometry("1366x760+0+0")
+root.attributes("-alpha", 0.75)
+
 ## Window Access
 
 <p align="justify">Subsequently I am showing how one 
@@ -139,6 +145,28 @@ ScrolledCanvas.configure(borderwidth=10)
 ScrolledCanvas.configure(relief='groove')
 ScrolledCanvas.configure(cursor="spider")
 ```
+
+## Window Data
+
+Screen Data:
+
+- root.winfo_screenwidth()
+- root.winfo_screenheight()
+
+Root Position:
+
+- root.winfo_rootx()
+- root.winfo_rooty()
+
+Window Data:
+
+- widget.winfo_width()
+- widget.winfo_height()
+
+Window Position:
+
+- widget.winfo_x()
+- widget.winfo_y()
 
 ## Cursors
 
