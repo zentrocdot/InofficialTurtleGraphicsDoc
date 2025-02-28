@@ -66,6 +66,10 @@ documentations.
 
 ## Window Access
 
+Subsequently I am showing how one can access to a Turtle Graphis window
+and its components. Figure 1 shows a Turtle Graphics window where I changed
+the configuration.
+
 ![image](https://github.com/user-attachments/assets/9017e48b-e0aa-41dd-b09f-9659272b0f60)
 
 
