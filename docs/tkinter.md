@@ -93,6 +93,9 @@ the configuration.</p>
 
 | Name                | Name              | Name                |  Name            | Name                 | Name              | 
 | :------------------ | :---------------- | :------------------ | :--------------- | :------------------- | : --------------- |
+
+
+
 | arrow               | man               | based_arrow_down    | middlebutton     | based_arrow_up       | mouse             |
 | boat                | pencil            | bogosity            | pirate           | bottom_left_corner   | plus              |  
 | bottom_right_corner | question_arrow    | bottom_side         | right_ptr        | bottom_tee           | right_side        | 
